@@ -1,5 +1,5 @@
 {
-    "name": "farmit/tina4php-sqlite3",
+    "name": "tina4stack/tina4php-sqlite3",
     "description": "Tina4 PHP Sqlite3 Database Driver",
     "license": "MIT",
     "autoload": {
@@ -25,7 +25,7 @@
         "phpmetrics": "phpmetrics --report-html=phpmetrics --junit=tests/junit.xml ./Tina4"
     },
     "require": {
-        "farmit/tina4php-database": "^2.0",
+        "tina4stack/tina4php-database": "^2.0",
         "ext-sqlite3": "*"
     }
 }
